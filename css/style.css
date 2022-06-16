@@ -24,6 +24,7 @@ body {
     
 }
 #indexhome{
+    top: 5px;
     left: 20px;
     position: fixed;
     border: 1px solid red;
