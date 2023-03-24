@@ -173,7 +173,7 @@ p {
 #index-experienceTitle:hover{
     background-color: aquamarine;
 }
-.index-experience-company{}
+.index-experienceTitle{width:85%;}
 .index-experience-company-joining{}
 .index-experience-title{}
 .index-experience-text{}
