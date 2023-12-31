@@ -1,280 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amar Singh | Full-Stack Web Developer</title>
     <!-- jquery -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- bootstrap css -->
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- <link rel="stylesheet" type="text/css" href="css/animation.css"> -->
-    <link rel="icon" href="./img/me.jpeg">
+    <link rel="icon" href="./img/me.jpeg" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="" id="nav-port">
-        <nav class="navbar navbar-expand-lg" id="indexnavhome">
-            <div class="container-fluid ">
-                <span onclick="window.location.href='#';" class="navbar-brand active bg-white p-2" id="indexhome">Home</span>
-                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 300px;">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" onclick="bg()">
-                        <li class="nav-item">
-                            <span onclick="window.location.href='#experience';" class="nav-link active text-white" id="nav-hover"
-                                aria-current="page">Expience</span>
-                        </li>
-                        <li class="nav-item">
-                            <span onclick="window.location.href='#skills';" class="nav-link active text-white" id="nav-hover"
-                                aria-current="page">Skills</span>
-                        </li>
-                        <li class="nav-item">
-                            <span onclick="window.location.href='#aboutus';" class="nav-link text-white" id="nav-hover">About
-                                Us</span>
-                        </li>
-                        <li class="nav-item ">
-                            <a href='./Resume.pdf' traget="_blank" class="nav-link text-white" id="nav-hover">Resume</a>
-                        </li>
-                        <li class="nav-item ">
-                            <span onclick="window.location.href='#footerdiv';" class="nav-link text-white"
-                                id="nav-hover">Social Media</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg" id="indexnavhome">
+        <div class="container-fluid">
+          <span
+            onclick="window.location.href='/';"
+            class="navbar-brand active"
+            id="indexhome"
+            >Home</span
+          >
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="margin-left: 300px"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" onclick="bg()">
+              <li class="nav-item">
+                <span
+                  onclick="window.location.href='#experience';"
+                  class="nav-link active text-white"
+                  id="nav-hover"
+                  aria-current="page"
+                  >Expience</span
+                >
+              </li>
+              <li class="nav-item">
+                <span
+                  onclick="window.location.href='#skills';"
+                  class="nav-link active text-white"
+                  id="nav-hover"
+                  aria-current="page"
+                  >Skills</span
+                >
+              </li>
+              <li class="nav-item">
+                <span
+                  onclick="window.location.href='#aboutus';"
+                  class="nav-link text-white"
+                  id="nav-hover"
+                  >About Us</span
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./Resume.pdf"
+                  traget="_blank"
+                  class="nav-link text-white"
+                  id="nav-hover"
+                  >Resume</a
+                >
+              </li>
+              <li class="nav-item">
+                <span
+                  onclick="window.location.href='#footerdiv';"
+                  class="nav-link text-white"
+                  id="nav-hover"
+                  >Social Media</span
+                >
+              </li>
+              <li class="nav-item">
+                <span
+                  onclick="window.location.href='project.html';"
+                  class="nav-link text-white"
+                  id="nav-hover"
+                  >Project</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
     <!-- -------------------nav end---------------------------- -->
 
     <div class="indexmaintitle">
-        <div class="indexmain-arch">
-            <div class="indexmaintext">
-                Amar Singh <br>
-                I am Full stuck developer Reactjs with Nodejs.
-            </div>
+      <div class="indexmain-arch">
+        <div class="indexmaintext">
+          Amar Singh <br />
+          I am Front end & Backend Web Application Developer.
         </div>
-        <div class="profileimg">
-            <div class="profileimgdiv">
-                <img src="./img/me.jpeg" class="rotate img-thumbnail rounded-circle" alt="Image not found" width="200px" height="200px" id="profileimg">
-            </div>
+      </div>
+      <div class="profileimg">
+        <div class="profileimgdiv">
+          <img
+            src="./img/me.jpeg"
+            class="rotate img-thumbnail rounded-circle"
+            alt="Image not found"
+            width="200px"
+            height="200px"
+            id="profileimg"
+          />
         </div>
+      </div>
 
-        <div class="contact-whatsapp">
-            <div class="whatsappdiv" style="position:fixed;buttom:10px;margin-top: -10px;right:10px;z-index:1">
-                <a href='https://wa.me/+918618790050 ' target="_blank" title="Whatsapp">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" width="55px"
-                        height="55px"> </a>
-            </div>
+      <div class="contact-whatsapp">
+        <div
+          class="whatsappdiv"
+          style="
+            position: fixed;
+            buttom: 10px;
+            margin-top: -10px;
+            right: 10px;
+            z-index: 1;
+          "
+        >
+          <a
+            href="https://wa.me/+918618790050 "
+            target="_blank"
+            title="Whatsapp"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+              width="55px"
+              height="55px"
+            />
+          </a>
         </div>
-        <div class="profile-objective col">
-            <div class="profile-text row ">
-
-                <p>Looking for an opportunity to apply my technical skills and experience to contribute to the growth
-                    of the organization, at the same time seeking a position to utilize my knowledge and abilities in
-                    the
-                    field of technology that offers professional growth while being resourceful, innovative and field of
-                    technology that offers professional growth while being resourceful, innovative and flexible.</p>
-                <p>Self-motivated team player with One plus years of experience seeking a position as a lead web
-                    developer with Next Generation Web Development where I can apply my
-                    advanced knowledge of web design with my leadership abilities to meet client needs and exceed their
-                    expectations.</p>
-            </div>
+      </div>
+      <div class="profile-objective col">
+        <div class="profile-text row">
+          <p>
+            Looking for an opportunity to apply my technical skills and
+            experience to contribute to the growth of the organization, at the
+            same time seeking a position to utilize my knowledge and abilities
+            in the field of technology that offers professional growth while
+            being resourceful, innovative and field of technology that offers
+            professional growth while being resourceful, innovative and
+            flexible.
+          </p>
+          <p>
+            Self-motivated team player with One plus years of experience seeking
+            a position as a lead web developer with Next Generation Web
+            Development where I can apply my advanced knowledge of web design
+            with my leadership abilities to meet client needs and exceed their
+            expectations.
+          </p>
         </div>
+      </div>
+      <a href="/project.html">
         <section id="experience">
-            <div id="index-experienceTitle">Work Experience</div>
-            
-            <div class="index-experience-svegg builtdesign">
-                <div class="index-experienceTitle">
-                    <div class="index-experience-company">
-                        <h4>Built Design Pvt Ltd</h4>
-                    </div>
-                    <div class="index-experience-company-joining">
-                        <h6>2022-08-01 - Current (work form Home).</h6>
-                    </div>
-                    <div class="index-experience-title">Software Engineer</div>
-                    <div class="index-experience-text">
-                        <div class="index-experience-text-description row">
-                            <ul class="col">
-                                <li>Worked with software development and testing team members
-to design and develop robust solutions to meet client
-requirements for functionality, scalability, and performance</li>
-                                <li>Reviewed project specifications and designed technology
-solutions that met or exceeded performance expectations.
-Coordinated with other engineers to evaluate and improve
-software and hardware interfaces.</li>
-                                <li>Partnered with development team on product development
-and application support plans.</li>
-                                <li>Analyzed proposed technical solutions based on customer
-requirements. Coordinated efficient large-scale software
-deployments. Tested methodology with writing and execution
-of test plans, debugging and testing scripts and tools.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+          <div id="index-experienceTitle">Work Experience</div>
+          <div class="company-exprience">
+            <div class="company-exprience-title">
+              I have worked as a Web Developer with Company
             </div>
-            
-            <div class="index-experienceTitle">
-                <div class="index-experience-company">
-                    <h4>HostingRaja OVI Pvt Ltd</h4>
+            <div class="company-exprience-card">
+              <div class="testimonial-container">
+                <div class="progress-bar"></div>
+                <div class="fas fa-quote-left fa-quote"></div>
+                <div class="fas fa-quote-right fa-quote"></div>
+                <p class="testimonial">
+                  As a Web Developer at HinduTrade, I played a pivotal role in
+                  crafting dynamic and user-centric websites. Collaborating with
+                  cross-functional teams, I implemented innovative solutions,
+                  ensuring seamless functionality and optimal user experiences.
+                  Proficient in front-end and back-end technologies, I
+                  contributed to the development of responsive, visually
+                  appealing interfaces. My responsibilities included code
+                  optimization, troubleshooting, and staying abreast of industry
+                  trends. Successfully delivering projects within deadlines, I
+                  demonstrated adaptability and problem-solving skills
+                </p>
+                <div class="testimonial-user user">
+                  <img
+                    src="./img/hindutrade.webp"
+                    width="70px"
+                    alt="user"
+                    class="user-image"
+                  />
+                  <div class="user-details">
+                    <h4 class="username">Hindu Trade</h4>
+                    <p class="role">Web Developer</p>
+                  </div>
                 </div>
-                <div class="index-experience-company-joining">
-                    <h6>February 03-02-2022- 07-07-2022 / Bangalaore.</h6>
-                </div>
-                <div class="index-experience-title">E-Commerace Website (Open Cart)</div>
-                <div class="index-experience-title">Web Development</div>
-                <div class="index-experience-text">
-                    <div class="index-experience-text-description row">
-                        <ul class="col">
-                            <li>Developing e-commerce Web applications as per the specifications.</li>
-                            <li>Designed, developed, coded, tested and debugged system requirements for the purpose of
-                                conversions and development projects.</li>
-                            <li>OpenCart Online Store and Server side Technical Support.</li>
-                            <li><b>Work on Project (streetbuy.in, kankudi.com,cannameds.in & <a href="#"
-                                        style="text-decoration: none;color:blue">60+ e-commerce</a> online store
-                                    (OpenCart) </b></li>
-                        </ul>
-                    </div>
-                </div>
+              </div>
             </div>
-            <div class="index-experience-svegg">
-                <div class="index-experienceTitle">
-                    <div class="index-experience-company">
-                        <h4>SVEGG Pvt Ltd</h4>
-                    </div>
-                    <div class="index-experience-company-joining">
-                        <h6>February 01-02-2021 to 31-02-2022 Bangalaore.</h6>
-                    </div>
-                    <div class="index-experience-title">Web Development</div>
-                    <div class="index-experience-text">
-                        <div class="index-experience-text-description row">
-                            <ul class="col">
-                                <li>Developing e-commerce Web applications as per the specifications.</li>
-                                <li>Designed, developed, coded, tested and debugged system requirements for the purpose
-                                    of
-                                    conversions and development projects.</li>
-                                <li>OpenCart Online Store and Server side Technical Support.</li>
-                                <li> <b>Work on Project (http://www.svegg.com, http://advikaventures.com &
-                                        http://popcelingdesign.com ...)</b></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="Traningexp-skills col-12 offset-0">
-                <div class="index-experience-PySpider">
-                    <div class="index-experienceTitle">
-                        <div class="index-experience-company">
-                            <h4>PySpider Python Training Institute</h4>
-                        </div>
-                        <div class="index-experience-company-joining">
-                            <h6>19-12-2020 to June- 28-06-2021 / Basavana gudi (560019), Bangalore.</h6>
-                        </div>
-                        <div class="index-experience-title">Python Full Stuck Developer</div>
-                        <div class="index-experience-text">
-                            <div class="index-experience-text-description row">
-                                <ul class="col">
-                                    <li>Skills: Python, Django, MySQL, JavaScript, HTML5, CSS and BootStrap.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="index-skills col-12 offset-0" id = "skills">
-                    <div class="row col-7"><b>Skills</b></div>
-                    <div class="row">
-                        <div class="col-12 offset-0">
-                            <li>Nodejs and Reactjs</li>
-                            <li>Python & Django</li>
-                            <li>MySQL & Workbench</li>
-                            <li>Javascript, JQuery & JSON</li>
-                            <li>HTML5 & CSS3</li>
-                            <li>bootstrap & Metrialui</li>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </section>
-        <section id="aboutus">
-            <div class="aboutusTitle"><span class="aboutust"> About Us</span></div>
-            <div class="aboutustext">
-                <p>I grew up in a small town in Uttar Pardesh.</p>
-                <p>I can conjur a website from nothing into existence, fully formed. I do not use tricks, nor is this magic. I specialize in manipulating the very fabric of the web, its raw materials of HTML, CSS, JavaScript, and SVG. Linux servers serve me, domains are my domain, and certificates are certain.</p>
-                <p>I enjoy building interactive,effect heavy javascript applications with an eye on animated content.</p>
-                <p>Open-source technologies empower this process. I am a custom OpenCart theme and plugin development expert. I fully embraced the Gutenberg editor and can create custom blocks from scratch for any conceivable need. I have contributed in small ways to these and other open-source efforts and intend to give back every chance I get.</p>
-                <p>My front end & design background informs ideation to design through to implementation. In 2020 I graduated from the SJMIT of Technology with a focus on new technology and a mantra to always consider my audience. I will always advocate for the user of my interfaces; accessibility is not optional.</p>
-                <p>If you fancy a chat feel free to contact me: <b>amarsingh1asm@gmail.com</b></p>
+      </a>
+      <section id="skills" class="technicalSkills">
+        <div class="technicalSkills-index">
+          <div class="technicalSkills-Title">Technical Skills</div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">Programming Languages</div>
+            <div class="technicalSkills-info-text">
+              Proficiency in languages like JavaScript, HTML, CSS, and
+              optionally, backend languages like PHP.
             </div>
-        </section>
-
-
-        <footer class="footerdiv" id="footerdiv">
-            <div class="footerdivs">
-                <div class="footerdivindex">
-                    <div class="footerTitle"><a href="mailto:amarsingh1asm@gmail.com" target="_blank"
-                            class="footerTitle"> amarsingh1asm@gmail.com</a></div>
-                    <div class="row">
-                        <div class="col" style="column-gap: 20;">
-                            <a href='https://www.linkedin.com/in/amar-singh-50b264178/' target="_blank"><img id="socialicon"
-                                    src="https://cdn4.vectorstock.com/i/1000x1000/24/53/linkedin-icon-vector-21082453.jpg"
-                                    class="rounded-circle" alt="Image Not found" width="45px" height="45px"
-                                    title="Linkin">
-                            </a>
-                            <a href='https://www.facebook.com/amarsingh.singh.777/' target="_blank"><img id="socialicon"
-                                    src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png"
-                                    class="rounded-circle" alt="Image Not found" width="45px" height="45px" title="Facebook">
-                            </a>
-                            <a href='https://twitter.com/Amar22197272' target="_blank"><img id="socialicon"
-                                    src="https://cdn4.vectorstock.com/i/1000x1000/04/43/twitter-logo-icon-vector-27990443.jpg"
-                                    class="rounded-circle" alt="Image Not found" width="45px" height="45px" title="Twitter">
-                            </a>
-                            <a href='https://github.com/Amarsingh21' target="_blank"> <img id="socialicon"
-                                    src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"
-                                    class="rounded-circle" alt="Image Not found" width="45px" height="45px" title="Github">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="footerTitletext">@ 2022. Amar Singh</div>
-                    <div class="fotterMainIcon">
-                        <a href='https://github.com/Amarsingh21'>
-                            <img src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"
-                                class="rounded-circle" alt="Image Not found" width="65px" height="65px" title="github">
-                        </a>
-                    </div>
-                </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">Front-End Development</div>
+            <div class="technicalSkills-info-text">
+              Mastery of front-end frameworks/libraries like React.js and
+              Angular.js for creating interactive and responsive user
+              interfaces.
             </div>
-        </footer>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">Back-End Development</div>
+            <div class="technicalSkills-info-text">
+              Knowledge of server-side languages and frameworks such as
+              Node.js,Next.js and Express.js for handling server logic and
+              database interactions.
+            </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">Database Management</div>
+            <div class="technicalSkills-info-text">
+              Understanding of database systems like MySQL and MongoDB for
+              efficient data storage and retrieval.
+            </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">Version Control</div>
+            <div class="technicalSkills-info-text">
+              Experience with version control systems like Git to track changes
+              and collaborate effectively with other developers.
+            </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">Web Services/APIs</div>
+            <div class="technicalSkills-info-text">
+              Ability to design and consume APIs, understanding RESTful
+              principles, and familiarity with tools like Postman.
+            </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">Testing/Debugging</div>
+            <div class="technicalSkills-info-text">
+              Proficiency in testing frameworks and debugging tools to identify
+              and fix issues in the code.
+            </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">
+              Deployment/Containerization
+            </div>
+            <div class="technicalSkills-info-text">
+              Understanding of deployment processes and containerization tools
+              like cPanel for consistent and scalable deployment.
+            </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">
+              Security Best Practices
+            </div>
+            <div class="technicalSkills-info-text">
+              Awareness of security measures, including HTTPS implementation,
+              secure coding practices, and protection against common
+              vulnerabilities.
+            </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">
+              Performance Optimization
+            </div>
+            <div class="technicalSkills-info-text">
+              Skills in optimizing website performance using techniques like
+              code splitting, lazy loading, and minimizing HTTP requests.
+            </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">
+              Cross-Browser Compatibility
+            </div>
+            <div class="technicalSkills-info-text">
+              Ensuring compatibility across different browsers and devices to
+              provide a consistent user experience.
+            </div>
+          </div>
+          <div class="technicalSkills-info">
+            <div class="technicalSkills-info-title">Collaboration Tools</div>
+            <div class="technicalSkills-info-text">
+              Effective use of collaboration tools such as Jira, Trello, and
+              communication platforms like Slack or Microsoft Teams.
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="aboutus">
+        <div class="about-us-index">
+          <div class="aboutusTitle">
+            <span class="aboutust"> About Us</span>
+          </div>
+          <div class="aboutustext">
+            <p>
+              As a seasoned web application developer, my expertise lies in
+              crafting dynamic and responsive web solutions that meet the unique
+              needs of clients.
+            </p>
+            <p>
+              Proficient in both front-end and back-end technologies, I excel in
+              creating seamless user experiences and robust functionalities.
+            </p>
+            <p>
+              With a keen eye for design and a comprehensive understanding of
+              database management, I have successfully contributed to the
+              development of user-friendly applications.
+            </p>
+            <p>
+              My skills include translating client requirements into technical
+              specifications, implementing efficient coding practices, and
+              ensuring optimal performance.
+            </p>
+            <p>
+              I thrive in collaborative environments, where my ability to work
+              across diverse teams has proven invaluable. Passionate about
+              staying abreast of emerging technologies, I am committed to
+              continuous learning and adapting to the ever-evolving landscape of
+              web development.
+            </p>
+            <p>
+              My track record includes delivering high-quality projects on time,
+              contributing to enhanced user engagement, and positively impacting
+              the overall success of web applications.
+            </p>
+            <p>
+              With a strong foundation in programming languages, frameworks, and
+              a problem-solving mindset, I am poised to contribute my expertise
+              to dynamic projects that demand innovation and excellence in web
+              application development.
+            </p>
+            <p>
+              If you fancy a chat feel free to contact me:
+              <b>amarsingh@gmail.com</b>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footerdiv" id="footerdiv">
+        <div class="footerdivs">
+          <div class="footerdivindex">
+            <div class="footerTitle">
+              <a
+                href="mailto:amarsingh1asm@gmail.com"
+                target="_blank"
+                class="footerTitle"
+              >
+                amarsingh1asm@gmail.com</a
+              >
+            </div>
+            <div class="row">
+              <div class="col" style="column-gap: 20">
+                <a
+                  href="https://www.linkedin.com/in/amar-singh-50b264178/"
+                  target="_blank"
+                  ><img
+                    id="socialicon"
+                    src="https://cdn4.vectorstock.com/i/1000x1000/24/53/linkedin-icon-vector-21082453.jpg"
+                    class="rounded-circle"
+                    alt="Image Not found"
+                    width="45px"
+                    height="45px"
+                    title="Linkin"
+                  />
+                </a>
+                <a
+                  href="https://www.facebook.com/amarsingh.singh.777/"
+                  target="_blank"
+                  ><img
+                    id="socialicon"
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png"
+                    class="rounded-circle"
+                    alt="Image Not found"
+                    width="45px"
+                    height="45px"
+                    title="Facebook"
+                  />
+                </a>
+                <a href="https://twitter.com/Amar22197272" target="_blank"
+                  ><img
+                    id="socialicon"
+                    src="https://cdn4.vectorstock.com/i/1000x1000/04/43/twitter-logo-icon-vector-27990443.jpg"
+                    class="rounded-circle"
+                    alt="Image Not found"
+                    width="45px"
+                    height="45px"
+                    title="Twitter"
+                  />
+                </a>
+                <a href="https://github.com/Amarsingh21" target="_blank">
+                  <img
+                    id="socialicon"
+                    src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"
+                    class="rounded-circle"
+                    alt="Image Not found"
+                    width="45px"
+                    height="45px"
+                    title="Github"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="footerTitletext">@2023, AMAR SINGH</div>
+            <div class="fotterMainIcon">
+              <a href="https://github.com/Amarsingh21">
+                <img
+                  src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"
+                  class="rounded-circle"
+                  alt="Image Not found"
+                  width="65px"
+                  height="65px"
+                  title="github"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-
-
-
-
 
     <!-- Bootscript JavaScript -->
     <script src="./js/img-rotate.js"></script>
     <script src="./js/bg.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script src="./js/slider.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

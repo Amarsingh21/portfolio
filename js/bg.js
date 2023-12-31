@@ -1,4 +1,4 @@
 
 function bg() {
-  document.body.style.backgroundColor = "#E0FFFF";
+  document.body.style.backgroundColor = "#03cffc";
 }
