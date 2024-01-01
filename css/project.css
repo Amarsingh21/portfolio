@@ -97,3 +97,22 @@ li {
     margin: 0 0 40px 0;
     line-height: 30px;
 }
+
+.common2 {
+    line-height: 30px;
+}
+
+@media (max-width:701px) {
+    .latest-compny-project-previous-lists {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .latest-compny-project-demo-content {
+        width: 84%;
+    }
+}

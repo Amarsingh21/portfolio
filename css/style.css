@@ -344,7 +344,7 @@ img:hover {
     #navbarSupportedContent {
         width: 60%;
         margin: 0 0 0 200px;
-        background: rgba(16, 18, 17, 0.5);
+        background: rgba(11 12 11 / 82%);
         padding: 15px;
     }
 
@@ -471,6 +471,14 @@ img:hover {
 @media (max-width: 768px) {
     .testimonial-container {
         padding: 20px 30px;
+    }
+
+    .testimonial-user {
+        margin: 40px 0 40px 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .fa-quote {
